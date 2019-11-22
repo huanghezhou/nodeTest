@@ -1,0 +1,9 @@
+{{#each ideas}}
+  <div class="card card-body mb2">
+    <h4>{{title}}</h4>
+    <p>{{details}}</p>
+    <a href="/ideas/edit/{{id}}" class="btn btn-dark btn-block">编辑</a>
+  </div>
+{{else}}
+  <p>还没有任何数据</p>
+{{/each}}
